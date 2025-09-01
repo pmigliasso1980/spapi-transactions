@@ -1,0 +1,21 @@
+{
+  "transactions": [
+    {
+      "transactionId": "T-PAGE-001",
+      "postedDate": "2025-08-03T09:00:00Z",
+      "transactionType": "Charge",
+      "transactionStatus": "RELEASED",
+      "marketplaceDetails": { "marketplaceId": "ATVPDKIKX0DER", "marketplaceName": "Amazon.com" },
+      "totalAmount": { "currencyCode": "USD", "currencyAmount": 12.50 },
+      "contexts": [{ "sku": "SKU-P1-1", "asin": "ASINP11" }],
+      "items": [
+        {
+          "description": "Page1 Item 1",
+          "totalAmount": { "currencyCode": "USD", "currencyAmount": 12.50 },
+          "contexts": [{ "sku": "SKU-P1-1", "asin": "ASINP11" }]
+        }
+      ]
+    }
+  ],
+  "nextToken": "token_page_2"
+}

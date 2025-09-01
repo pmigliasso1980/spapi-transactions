@@ -1,0 +1,28 @@
+{
+  "transactions": [
+    {
+      "transactionId": "T-RICH-001",
+      "postedDate": "2025-08-05T12:00:00Z",
+      "transactionType": "Charge",
+      "transactionStatus": "RELEASED",
+      "marketplaceDetails": { "marketplaceId": "ATVPDKIKX0DER", "marketplaceName": "Amazon.com" },
+      "totalAmount": { "currencyCode": "USD", "currencyAmount": 59.97 },
+      "contexts": [{ "sku": "SKU-RICH-1", "asin": "ASINRICH1" }],
+      "items": [
+        { "description": "Bundle A - Item 1", "totalAmount": { "currencyCode": "USD", "currencyAmount": 19.99 }, "contexts": [{ "sku": "SKU-RICH-1", "asin": "ASINRICH1" }] },
+        { "description": "Bundle A - Item 2", "totalAmount": { "currencyCode": "USD", "currencyAmount": 19.99 }, "contexts": [{ "sku": "SKU-RICH-2", "asin": "ASINRICH2" }] },
+        { "description": "Bundle A - Item 3", "totalAmount": { "currencyCode": "USD", "currencyAmount": 19.99 }, "contexts": [{ "sku": "SKU-RICH-3", "asin": "ASINRICH3" }] }
+      ]
+    },
+    {
+      "transactionId": "T-RICH-002",
+      "postedDate": "2025-08-05T13:30:00Z",
+      "transactionType": "Refund",
+      "transactionStatus": "RELEASED",
+      "marketplaceDetails": { "marketplaceId": "ATVPDKIKX0DER", "marketplaceName": "Amazon.com" },
+      "totalAmount": { "currencyCode": "USD", "currencyAmount": -10.00 },
+      "productContext": { "sku": "SKU-RICH-4", "asin": "ASINRICH4" },
+      "items": []
+    }
+  ]
+}
