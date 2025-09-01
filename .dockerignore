@@ -1,0 +1,17 @@
+# Keep build context small
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+__pycache__/
+out/
+dist/
+build/
+.DS_Store
+.idea
+.vscode
+.pytest_cache
+.mypy_cache
+.ruff_cache
+htmlcov
