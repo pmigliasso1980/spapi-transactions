@@ -1,0 +1,30 @@
+{
+  "transactions": [
+    {
+      "transactionId": "T-MIX-001",
+      "postedDate": "2025-08-06T10:10:00Z",
+      "transactionType": "Charge",
+      "transactionStatus": "RELEASED",
+      "marketplaceDetails": { "marketplaceId": "ATVPDKIKX0DER", "marketplaceName": "Amazon.com" },
+      "totalAmount": { "currencyCode": "USD", "currencyAmount": 40.00 },
+      "contexts": [{ "asin": "ASIN-ONLY" }],
+      "items": [
+        {
+          "description": "ASIN only item",
+          "totalAmount": { "currencyCode": "USD", "currencyAmount": 40.00 },
+          "contexts": [{ "asin": "ASIN-ONLY" }]
+        }
+      ]
+    },
+    {
+      "transactionId": "T-MIX-002",
+      "postedDate": "2025-08-06T11:20:00Z",
+      "transactionType": "Charge",
+      "transactionStatus": "RELEASED",
+      "marketplaceDetails": { "marketplaceId": "ATVPDKIKX0DER", "marketplaceName": "Amazon.com" },
+      "totalAmount": { "currencyCode": "USD", "currencyAmount": 22.00 },
+      "contexts": [{ "sku": "SKU-CTX-ONLY" }],
+      "items": []
+    }
+  ]
+}
